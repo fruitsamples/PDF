@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist SYSTEM "file://localhost/System/Library/DTDs/PropertyList.dtd">
+<plist version="0.9">
+<dict>
+   <key>b</key>
+   <string>Close, fill, and stroke path using nonzero winding number rule</string>
+   <key>B</key>
+   <string>Fill and stroke path using nonzero winding number rule</string>
+   <key>b*</key>
+   <string>Close, fill, and stroke path using even-odd rule</string>
+   <key>B*</key>
+   <string>Fill and stroke path using even-odd rule</string>
+   <key>BDC</key>
+   <string>(PDF 1.2) Begin marked-content sequence with property list</string>
+   <key>BI</key>
+   <string>Begin inline image object</string>
+   <key>BMC</key>
+   <string>(PDF 1.2) Begin marked-content sequence</string>
+   <key>BT</key>
+   <string>Begin text object</string>
+   <key>BX</key>
+   <string>(PDF 1.1) Begin compatibility section</string>
+   <key>c</key>
+   <string>Append curved segment to path (three control points)</string>
+   <key>cm</key>
+   <string>Concatenate matrix to current transformation matrix</string>
+   <key>CS</key>
+   <string>(PDF 1.1) Set color space for stroking operations</string>
+   <key>cs</key>
+   <string>(PDF 1.1) Set color space for nonstroking operations</string>
+   <key>d</key>
+   <string>Set line dash pattern</string>
+   <key>d0</key>
+   <string>Set glyph width in Type 3 font</string>
+   <key>d1</key>
+   <string>Set glyph width and bounding box in Type 3 font</string>
+   <key>Do</key>
+   <string>Invoke named XObject</string>
+   <key>DP</key>
+   <string>(PDF 1.2) Define marked-content point with property list</string>
+   <key>EI</key>
+   <string>End inline image object</string>
+   <key>EMC</key>
+   <string>(PDF 1.2) End marked-content sequence</string>
+   <key>ET</key>
+   <string>End text object</string>
+   <key>EX</key>
+   <string>(PDF 1.1) End compatibility section</string>
+   <key>f</key>
+   <string>Fill path using nonzero winding number rule</string>
+   <key>F</key>
+   <string>Fill path using nonzero winding number rule (obsolete)</string>
+   <key>f*</key>
+   <string>Fill path using even-odd rule</string>
+   <key>G</key>
+   <string>Set gray level for stroking operations</string>
+   <key>g</key>
+   <string>Set gray level for nonstroking operations</string>
+   <key>gs</key>
+   <string>(PDF 1.2) Set parameters from graphics state parameter dictionary</string>
+   <key>h</key>
+   <string>Close subpath</string>
+   <key>i</key>
+   <string>Set flatness tolerance</string>
+   <key>ID</key>
+   <string>Begin inline image data</string>
+   <key>j</key>
+   <string>Set line join style</string>
+   <key>J</key>
+   <string>Set line cap style</string>
+   <key>K</key>
+   <string>Set CMYK color for stroking operations</string>
+   <key>k</key>
+   <string>Set CMYK color for nonstroking operations</string>
+   <key>l</key>
+   <string>Append straight line segment to path</string>
+   <key>m</key>
+   <string>Begin new subpath</string>
+   <key>M</key>
+   <string>Set miter limit</string>
+   <key>MP</key>
+   <string>(PDF 1.2) Define marked-content point</string>
+   <key>n</key>
+   <string>End path without filling or stroking</string>
+   <key>q</key>
+   <string>Save graphics state</string>
+   <key>Q</key>
+   <string>Restore graphics state</string>
+   <key>re</key>
+   <string>Append rectangle to path</string>
+   <key>RG</key>
+   <string>Set RGB color for stroking operations</string>
+   <key>rg</key>
+   <string>Set RGB color for nonstroking operations</string>
+   <key>ri</key>
+   <string>Set color rendering intent</string>
+   <key>s</key>
+   <string>Close and stroke path</string>
+   <key>S</key>
+   <string>Stroke path</string>
+   <key>SC</key>
+   <string>(PDF 1.1) Set color for stroking operations</string>
+   <key>sc</key>
+   <string>(PDF 1.1) Set color for nonstroking operations</string>
+   <key>SCN</key>
+   <string>(PDF 1.2) Set color for stroking operations (ICCBased and special color spaces)</string>
+   <key>scn</key>
+   <string>(PDF 1.2) Set color for nonstroking operations (ICCBased and special color spaces)</string>
+   <key>sh</key>
+   <string>(PDF 1.3) Paint area defined by shading pattern</string>
+   <key>T*</key>
+   <string>Move to start of next text line</string>
+   <key>Tc</key>
+   <string>Set character spacing</string>
+   <key>Td</key>
+   <string>Move text position</string>
+   <key>TD</key>
+   <string>Move text position and set leading</string>
+   <key>Tf</key>
+   <string>Set text font and size</string>
+   <key>Tj</key>
+   <string>Show text</string>
+   <key>TJ</key>
+   <string>Show text, allowing individual glyph positioning</string>
+   <key>TL</key>
+   <string>Set text leading</string>
+   <key>Tm</key>
+   <string>Set text matrix and text line matrix</string>
+   <key>Tr</key>
+   <string>Set text rendering mode</string>
+   <key>Ts</key>
+   <string>Set text rise</string>
+   <key>Tw</key>
+   <string>Set word spacing</string>
+   <key>Tz</key>
+   <string>Set horizontal text scaling</string>
+   <key>v</key>
+   <string>Append curved segment to path (initial point replicated)</string>
+   <key>w</key>
+   <string>Set line width</string>
+   <key>W</key>
+   <string>Set clipping path using nonzero winding number rule</string>
+   <key>W*</key>
+   <string>Set clipping path using even-odd rule</string>
+   <key>y</key>
+   <string>Append curved segment to path (final point replicated)</string>
+   <key>'</key>
+   <string>Move to next line and show text</string>
+   <key>"</key>
+   <string>Set word and character spacing, move to next line, and show text</string>
+</dict>
+</plist>

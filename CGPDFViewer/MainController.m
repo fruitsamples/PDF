@@ -104,7 +104,7 @@
 
 // Disable inappropriate menu items.
 
-- (BOOL)validateMenuItem:(id <NSMenuItem>)item
+- (BOOL)validateMenuItem:(NSMenuItem *)item
 {
     if ([item action] == @selector(firstPage:)
         ||[item action] == @selector(pageUp:)) {

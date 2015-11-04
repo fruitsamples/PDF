@@ -65,10 +65,10 @@ parseFont(const char *key, CGPDFObjectRef object, void *info)
 
     baseFont = @"<< none >>";
     if (CGPDFDictionaryGetName(dict, "BaseFont", &name))
-	baseFont = [NSString stringWithCString:name];
+	baseFont = [NSString stringWithCString:name encoding:NSASCIIStringEncoding];
     fontType = @"<< unknown >>";
     if (CGPDFDictionaryGetName(dict, "Subtype", &name))
-	fontType = [NSString stringWithCString: name];
+	fontType = [NSString stringWithCString: name encoding:NSASCIIStringEncoding];
 	
     isEmbedded = false;
     if (CGPDFDictionaryGetDictionary(dict, "FontDescriptor", &descriptor)) {
@@ -81,7 +81,7 @@ parseFont(const char *key, CGPDFObjectRef object, void *info)
 
     encoding = @"<< font-specific >>";
     if (CGPDFDictionaryGetName(dict, "Encoding", &name))
-	encoding = [NSString stringWithCString:name];
+	encoding = [NSString stringWithCString:name encoding:NSASCIIStringEncoding];
 
     font = [[VoyeurFont alloc] initWithBaseFont:baseFont type:fontType
 			       encoding:encoding isEmbedded:isEmbedded];

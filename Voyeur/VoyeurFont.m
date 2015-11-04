@@ -106,7 +106,9 @@
     }
     set = [NSCharacterSet characterSetWithCharactersInString:string];
     if (![[stringFont coveredCharacterSet] isSupersetOfSet:set])
-	stringFont = nil;
+	{	
+		stringFont = nil;
+	}
 
     if (stringFont != nil) {
 	attributes = [NSDictionary dictionaryWithObject:stringFont
